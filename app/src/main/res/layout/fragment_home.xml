@@ -12,7 +12,7 @@
         android:id="@+id/toolbarFriend"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:background="@color/colorPrimary"
+        android:background="@android:color/background_light"
         app:layout_scrollFlags="scroll|enterAlways|snap"
         app:popupTheme="@style/AppTheme.AppBarOverlay">
 
@@ -25,18 +25,11 @@
 
     </android.support.v7.widget.Toolbar>
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="16dp"
-        android:src="@drawable/ava1" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/welcome_you_logged_in_as" />
+        android:text="Welcome back!" />
 
     <TextView
         android:id="@+id/tvUser"
@@ -46,12 +39,19 @@
         android:textSize="16sp"
         tools:text="Alexander M S" />
 
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ava1" />
+
     <Button
         android:id="@+id/btnSignOut"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
+        android:layout_width="430dp"
+        android:layout_height="109dp"
         android:layout_marginTop="12dp"
-        android:background="@drawable/item_button"
+        android:background="@color/colorPrimaryDark"
         android:text="@string/sign_out"
         android:textAllCaps="false"
         android:textColor="@android:color/white" />

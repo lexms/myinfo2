@@ -41,7 +41,8 @@
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="4dp"
         android:src="@drawable/ic_keyboard_arrow_right_24dp"
-        android:layout_alignParentEnd="true"/>
+        app:srcCompat="@android:color/background_light" />
 </RelativeLayout>
